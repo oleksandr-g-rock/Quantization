@@ -1,0 +1,11 @@
+,1,2,3,4
+Size file,11.59 mb,10.96 mb,5.8 mb,3.3 mb
+Accuracy,99%.                   ,99%.                   ,99%.,99%.
+Type file,.h5,tflite,tflite,tflite
+Speed for recognize one image,520 ms,170 ms,170 ms,270 ms
+Processor type CPU,CPU,CPU,CPU,CPU
+,,,,
+1 = Tensorflow .h5,,,,
+2 = Just converted Tensorflow Lite .tflite,,,,
+3 = Tensorflow Lite OPTIMIZE_FOR_SIZE/DEFAULT/OPTIMIZE_FOR_LATENCY float16 quantization model tflite,,,,
+4 = Tensorflow Lite OPTIMIZE_FOR_SIZE/DEFAULT/OPTIMIZE_FOR_LATENCY float8 quantization model tflite,,,,
